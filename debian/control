@@ -6,6 +6,23 @@ XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14),
+               libkf5idletime-dev (>= 4.100.0),
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5notifyconfig-dev (>= 4.100.0),
+               libqt5x11extras5-dev,
+               libudev-dev,
+               libx11-xcb-dev,
+               libxcb-composite0-dev,
+               libxcb-damage0-dev,
+               libxcb-icccm4-dev,
+               libxcb-image0-dev,
+               libxcb-keysyms1-dev,
+               libxcb-randr0-dev,
+               libxcb-shm0-dev,
+               libxcb-sync-dev,
+               libxcb-xtest0-dev,
+               libxrandr-dev,
+               pkg-config,
                pkg-kde-tools,
                plasma-framework-dev (>= 4.100.0),
                plasma-workspace-dev (>= 4.97.0)
@@ -32,8 +49,7 @@ Description: Global power saver settings.
 
 Package: powerdevil-data
 Architecture: all
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Global power saver settings data files.
  Power Devil allows you to define your all power settings.
 
