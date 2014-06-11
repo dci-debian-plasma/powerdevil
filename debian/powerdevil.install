@@ -1,0 +1,4 @@
+etc/
+usr/lib/*/libexec
+usr/lib/*/libpowerdevilconfigcommonprivate.so.*
+usr/lib/*/qt5

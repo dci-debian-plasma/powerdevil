@@ -1,0 +1,64 @@
+Source: powerdevil
+Section: kde
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               pkg-kde-tools,
+               plasma-framework-dev (>= 4.100.0),
+               plasma-workspace-dev (>= 4.97.0)
+Standards-Version: 3.9.5
+
+Package: powerdevil-dev
+Architecture: any
+Depends: libpowerdevilcore1 (= ${binary:Version}),
+         libpowerdevilui5 (= ${binary:Version}),
+         powerdevil (= ${binary:Version}),
+         ${misc:Depends}
+Description: Global power saver settings.
+ Power Devil allows you to define your all power settings.
+ .
+ This package contains the development files.
+
+Package: powerdevil
+Architecture: any
+Depends: powerdevil-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Global power saver settings.
+ Power Devil allows you to define your all power settings.
+
+Package: powerdevil-data
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Global power saver settings data files.
+ Power Devil allows you to define your all power settings.
+
+Package: libpowerdevilui5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Global power saver settings ui library.
+ Power Devil allows you to define your all power settings.
+ .
+ This package contains the library files.
+
+Package: libpowerdevilcore1
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Global power saver settings ui library.
+ Power Devil allows you to define your all power settings.
+ .
+ This package contains the library files.
+
+Package: powerdevil-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: powerdevil (= ${binary:Version}), ${misc:Depends}
+Description: Global power saver settings.
+ Power Devil allows you to define your all power settings.
+ .
+ This package contains the debug files.
