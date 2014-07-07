@@ -5,7 +5,7 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.14),
+               extra-cmake-modules (>= 4:None),
                libkf5idletime-dev (>= 4.100.0),
                libkf5kdelibs4support-dev (>= 4.100.0),
                libkf5notifyconfig-dev (>= 4.100.0),
@@ -25,7 +25,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools,
                plasma-framework-dev (>= 4.100.0),
-               plasma-workspace-dev (>= 4.97.0)
+               plasma-workspace-dev (>= 4:4.98.0)
 Standards-Version: 3.9.5
 
 Package: powerdevil-dev
