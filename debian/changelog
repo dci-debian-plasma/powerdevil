@@ -1,6 +1,11 @@
 powerdevil (4:4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream RC release
+
+  [ Harald Sitter ]
+  * powerdevil breaks and replaces kde-workspace-data (<< 4:4.98.0) as it
+    contains files previously in that package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:28:39 +0200
 

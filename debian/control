@@ -44,6 +44,8 @@ Architecture: any
 Depends: powerdevil-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kde-workspace-data (<< 4:4.98.0)
+Replaces: kde-workspace-data (<< 4:4.98.0)
 Description: Global power saver settings.
  Power Devil allows you to define your all power settings.
 
