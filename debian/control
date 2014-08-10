@@ -25,7 +25,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools,
                plasma-framework-dev (>= 5.0.0),
-               plasma-workspace-dev (>= 4:5.0.1)
+               plasma-workspace-dev (>= 5.0.1)
 Standards-Version: 3.9.5
 
 Package: powerdevil-dev
