@@ -2,3 +2,4 @@ etc/
 usr/lib/*/libexec
 usr/lib/*/libpowerdevilconfigcommonprivate.so.*
 usr/lib/*/qt5
+usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy
