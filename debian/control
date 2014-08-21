@@ -30,7 +30,7 @@ Standards-Version: 3.9.5
 
 Package: powerdevil-dev
 Architecture: any
-Depends: libpowerdevilcore1 (= ${binary:Version}),
+Depends: libpowerdevilcore2 (= ${binary:Version}),
          libpowerdevilui5 (= ${binary:Version}),
          powerdevil (= ${binary:Version}),
          ${misc:Depends}
@@ -63,7 +63,7 @@ Description: Global power saver settings ui library.
  .
  This package contains the library files.
 
-Package: libpowerdevilcore1
+Package: libpowerdevilcore2
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Global power saver settings ui library.
