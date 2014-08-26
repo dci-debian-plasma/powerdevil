@@ -65,6 +65,8 @@ Description: Global power saver settings ui library.
 
 Package: libpowerdevilcore2
 Architecture: any
+Conflicts: libpowerdevilcore1
+Replaces: libpowerdevilcore1
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Global power saver settings ui library.
  Power Devil allows you to define your all power settings.
