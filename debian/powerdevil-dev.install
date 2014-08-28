@@ -1,4 +1,3 @@
 usr/lib/*/libpowerdevilconfigcommonprivate.so
 usr/lib/*/libpowerdevilcore.so
 usr/lib/*/libpowerdevilui.so
-usr/share/dbus-1
