@@ -23,7 +23,7 @@ Build-Depends: cmake,
                libxcb-xtest0-dev,
                libxrandr-dev,
                pkg-config,
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev (>= 5.0.0),
                plasma-workspace-dev (>= 5.0.1)
 Standards-Version: 3.9.5
