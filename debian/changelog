@@ -1,4 +1,4 @@
-powerdevil (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+powerdevil (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -8,7 +8,7 @@ powerdevil (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 02:42:14 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:54:09 +0100
 
 powerdevil (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
