@@ -117,8 +117,7 @@ Files: daemon/backends/upower/udevqt.h
        daemon/backends/upower/udevqtdevice.cpp
        daemon/backends/upower/udevqtdevice.h
 Copyright: 2009 Benjamin K. Stuhl <bks24@cornell.edu>
-License: LGPL-2.1+ or (at your option) version 3, or any
-    later version accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
