@@ -1,9 +1,9 @@
-usr/share/knotifications5
-usr/share/kservices5
-usr/share/kservicetypes5
-usr/share/locale/*
 usr/share/doc/HTML/en/kcontrol/powerdevil/activity.png
 usr/share/doc/HTML/en/kcontrol/powerdevil/advanced.png
 usr/share/doc/HTML/en/kcontrol/powerdevil/energy.png
 usr/share/doc/HTML/en/kcontrol/powerdevil/index.cache.bz2
 usr/share/doc/HTML/en/kcontrol/powerdevil/index.docbook
+usr/share/knotifications5
+usr/share/kservices5
+usr/share/kservicetypes5
+usr/share/locale/*
