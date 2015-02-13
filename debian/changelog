@@ -6,6 +6,7 @@ powerdevil (4:5.2.0-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update copyright information.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 13:45:40 +0100
 

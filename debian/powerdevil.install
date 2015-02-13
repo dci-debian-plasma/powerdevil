@@ -1,4 +1,4 @@
-etc/
+etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
 usr/lib/*/libexec
 usr/lib/*/libpowerdevilconfigcommonprivate.so.*
 usr/lib/*/qt5
