@@ -1,4 +1,4 @@
-powerdevil (4:5.2.0-1~) UNRELEASED; urgency=medium
+powerdevil (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Add myself as Uploader.
@@ -8,7 +8,7 @@ powerdevil (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 13:45:40 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 14:21:48 +0100
 
 powerdevil (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
