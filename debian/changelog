@@ -82,6 +82,6 @@ powerdevil (4:4.98.0-0ubuntu1) utopic; urgency=medium
 powerdevil (4:4.97.0-0ubuntu1) utopic; urgency=medium
 
   * Initial Release
-  * Add build depends 
+  * Add build depends
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 09 Jun 2014 06:58:59 -0700
