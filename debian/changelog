@@ -4,6 +4,7 @@ powerdevil (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Add myself as Uploader.
   * Update build dependencies to build against experimental and to
     follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 13:45:40 +0100
 
