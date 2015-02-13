@@ -1,6 +1,6 @@
 Source: powerdevil
 Section: kde
-Priority: extra
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -29,6 +29,7 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 
 Package: powerdevil-dev
+Section: devel
 Architecture: any
 Depends: libpowerdevilcore2 (= ${binary:Version}),
          libpowerdevilui5 (= ${binary:Version}),
@@ -56,6 +57,7 @@ Description: Global power saver settings data files.
  Power Devil allows you to define your all power settings.
 
 Package: libpowerdevilui5
+Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Global power saver settings ui library.
@@ -64,10 +66,11 @@ Description: Global power saver settings ui library.
  This package contains the library files.
 
 Package: libpowerdevilcore2
+Section: libs
 Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Conflicts: libpowerdevilcore1
 Replaces: libpowerdevilcore1
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Global power saver settings ui library.
  Power Devil allows you to define your all power settings.
  .
@@ -75,9 +78,10 @@ Description: Global power saver settings ui library.
 
 Package: powerdevil-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: powerdevil (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: Global power saver settings.
  Power Devil allows you to define your all power settings.
  .
