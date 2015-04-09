@@ -29,6 +29,9 @@ Build-Depends: cmake,
                plasma-framework-dev (>= 5.2.0),
                plasma-workspace-dev (>= 4:5.2.2)
 Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/kde/workspace/powerdevil
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/powerdevil.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/powerdevil.git
 
 Package: powerdevil-dev
 Architecture: any
