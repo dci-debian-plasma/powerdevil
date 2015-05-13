@@ -16,7 +16,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5kdelibs4support-dev (>= 5.2.0),
                libkf5notifyconfig-dev (>= 5.2.0),
                libkf5solid-dev,
-               libqt5x11extras5-dev (>= 5.2.0~),
+               libqt5x11extras5-dev (>= 5.4),
                libudev-dev,
                libx11-dev,
                libx11-xcb-dev,
@@ -26,7 +26,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-workspace-dev (>= 4:5.2.1),
-               qtbase5-dev (>= 5.2.0)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/powerdevil
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/powerdevil.git
