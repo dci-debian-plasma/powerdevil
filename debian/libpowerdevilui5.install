@@ -1,1 +1,2 @@
-usr/lib/*/libpowerdevilui.so.*
+usr/lib/*/libpowerdevilui.so.5
+usr/lib/*/libpowerdevilui.so.5.*

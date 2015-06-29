@@ -24,11 +24,36 @@ powerdevil (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:45:23 -0700
 
+powerdevil (4:5.3.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:59:37 +0200
+
+powerdevil (4:5.2.1-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:59 +0100
+
 powerdevil (4:5.2.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:50:11 -0800
+
+powerdevil (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 14:21:48 +0100
 
 powerdevil (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
@@ -107,6 +132,6 @@ powerdevil (4:4.98.0-0ubuntu1) utopic; urgency=medium
 powerdevil (4:4.97.0-0ubuntu1) utopic; urgency=medium
 
   * Initial Release
-  * Add build depends 
+  * Add build depends
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 09 Jun 2014 06:58:59 -0700
