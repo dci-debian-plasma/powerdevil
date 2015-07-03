@@ -33,7 +33,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxcb1-dev,
                libxrandr-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                plasma-workspace-dev (>= 4:5.2.1),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
@@ -66,6 +66,8 @@ Description: Global power saver settings.
 Package: powerdevil-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Global power saver settings data files.
  Power Devil allows you to define your all power settings.
 
