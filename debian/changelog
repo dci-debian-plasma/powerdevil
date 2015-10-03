@@ -1,8 +1,8 @@
-powerdevil (4:5.4.2-0ubuntu1) UNRELEASED; urgency=medium
+powerdevil (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 01 Oct 2015 07:39:22 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 16:03:34 +0100
 
 powerdevil (4:5.4.1-0ubuntu1) wily; urgency=medium
 
