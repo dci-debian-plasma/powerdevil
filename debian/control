@@ -34,7 +34,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxrandr-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               plasma-workspace-dev (>= 4:5.4.2~),
+               plasma-workspace-dev (>= 4:5.4.3~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/powerdevil
