@@ -7,7 +7,16 @@ powerdevil (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * new upstream release
   * New upstream release
 
+  [ Philip Muškovac ]
+  * Merge with debian git master 
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:07:27 +0000
+
+powerdevil (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:46:06 +0100
 
 powerdevil (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
@@ -20,17 +29,35 @@ powerdevil (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:50:22 +0100
 
+powerdevil (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:24 +0200
+
 powerdevil (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 16:03:34 +0100
 
+powerdevil (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:43 +0200
+
 powerdevil (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:27:02 +0100
+
+powerdevil (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 09:51:02 +0200
 
 powerdevil (4:5.4.0-0ubuntu1) wily; urgency=medium
 
@@ -47,6 +74,16 @@ powerdevil (4:5.3.95-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:22:59 +0200
+
+powerdevil (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+  * New upstream release (5.3.2).
+  * Update copyright information.
+  * Add the missing Breaks/Replaces.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 02 Jul 2015 11:16:06 +0200
 
 powerdevil (4:5.3.2-0ubuntu1) wily; urgency=medium
 
@@ -73,13 +110,6 @@ powerdevil (4:5.2.2-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:45:23 -0700
-
-powerdevil (4:5.3.1-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.3.0).
-  * New upstream release (5.3.1).
-
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:59:37 +0200
 
 powerdevil (4:5.2.1-1) experimental; urgency=medium
 
