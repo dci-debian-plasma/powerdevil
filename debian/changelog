@@ -1,11 +1,18 @@
-powerdevil (4:5.6.2-1~2.gbp2c133f) UNRELEASED; urgency=medium
+powerdevil (4:5.6.3-1~1.gbp1317b1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2c133f13947f947a2059e984ee7af29646dc9b48 **
+  ** SNAPSHOT build @1317b12b2e7d39b73ede1213d63d5f839869a55b **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 15:44:56 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:30:19 +0200
 
 powerdevil (4:5.5.4-1) experimental; urgency=medium
 
