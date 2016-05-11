@@ -1,6 +1,6 @@
-powerdevil (4:5.6.3-1~1.gbp1317b1) UNRELEASED; urgency=medium
+powerdevil (4:5.6.4-1~1.gbp3280a0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @1317b12b2e7d39b73ede1213d63d5f839869a55b **
+  ** SNAPSHOT build @3280a05bb278076087c898df56eb7053b8081477 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -11,8 +11,9 @@ powerdevil (4:5.6.3-1~1.gbp1317b1) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:30:19 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 02:30:11 +0200
 
 powerdevil (4:5.5.4-1) experimental; urgency=medium
 
