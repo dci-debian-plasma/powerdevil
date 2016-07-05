@@ -1,3 +1,11 @@
+powerdevil (4:5.7.0-1~1.gbp3b3326) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3b332652a369cc65a1c2dbaa53b1eeff8d0ffd48 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 14:30:15 +0200
+
 powerdevil (4:5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
