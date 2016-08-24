@@ -1,13 +1,14 @@
-powerdevil (4:5.7.3-1~1.gbpcdb29c) UNRELEASED; urgency=medium
+powerdevil (4:5.7.4-1~1.gbp158e82) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cdb29cc5f521b0c5787d1c3dfb36fc63a67594de **
+  ** SNAPSHOT build @158e8294f7327c070ca9efa7dc49626f80d49fcc **
 
   * Update build-deps and deps with the info from cmake
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 13:06:01 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 20:30:17 +0200
 
 powerdevil (4:5.6.5-1) unstable; urgency=medium
 
