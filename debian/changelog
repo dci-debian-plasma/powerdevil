@@ -1,3 +1,11 @@
+powerdevil (4:5.7.5-1~1.gbp4d6dce) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4d6dced20cf5ebf19d7fa129611eef004c49989e **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 20:30:36 +0200
+
 powerdevil (4:5.7.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
