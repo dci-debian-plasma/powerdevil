@@ -1,11 +1,12 @@
-powerdevil (4:5.8.0-1~1.gbp7527b5) UNRELEASED; urgency=medium
+powerdevil (4:5.8.0-1~2.gbp310a89) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7527b5fbfcf9aba4ee5b42bc31199ab868082df7 **
+  ** SNAPSHOT build @310a890a0c1ba20c22e30a598f0761aa6ab81e7e **
 
   * UNRELEASED
   * UNRELEASED
+  * Update install files
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:42:37 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 05 Oct 2016 13:39:16 +0200
 
 powerdevil (4:5.7.4-1) unstable; urgency=medium
 
