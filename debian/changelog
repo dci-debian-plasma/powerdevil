@@ -1,13 +1,9 @@
-powerdevil (4:5.8.0-1~3.gbp488447) UNRELEASED; urgency=medium
+powerdevil (4:5.8.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @48844720240fe0de1838d2abfad2b58fd7aa1a07 **
-
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.8.0)
   * Update install files
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 06 Oct 2016 10:30:39 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:11:30 +0200
 
 powerdevil (4:5.7.4-1) unstable; urgency=medium
 
