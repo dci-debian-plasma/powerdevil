@@ -1,10 +1,8 @@
-powerdevil (4:5.8.2-1~1.gbp988a52) UNRELEASED; urgency=medium
+powerdevil (4:5.8.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @988a529823b9511ccc2f9cc031ab011aac370bdb **
+  * New upstream release (5.8.2)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 20:30:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:28:23 +0200
 
 powerdevil (4:5.8.1-1) unstable; urgency=medium
 
