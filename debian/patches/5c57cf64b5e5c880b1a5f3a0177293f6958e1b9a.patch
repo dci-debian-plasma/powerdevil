@@ -1,0 +1,82 @@
+From 5c57cf64b5e5c880b1a5f3a0177293f6958e1b9a Mon Sep 17 00:00:00 2001
+From: Bhushan Shah <bhush94@gmail.com>
+Date: Wed, 14 Jun 2017 18:25:23 +0530
+Subject: Revert "skip the disabled backlight device"
+
+This reverts commits 86c3548d103ff5966366788220796de629be9230 and
+5c0d35ca6caf7bb0a0e9897a1a868e8406f3b112.
+
+Not all raw interfaces have device/enabled under the backlight sysfs
+interface. Some examples are nvidia-bl and acpi_video0, they are raw
+interfaces but doesn't have device/enabled properties.
+
+Overall we can just return true even if file doesn't exist but then this
+code serves no purpose.
+
+BUG: 381114
+BUG: 381199
+
+Ackd-by: Kai Uwe Broulik <kde@privat.broulik.de>
+CCMAIL: AceLan Kao <acelan@acelan.idv.tw>
+---
+ daemon/backends/upower/backlighthelper.cpp | 20 +-------------------
+ daemon/backends/upower/backlighthelper.h   |  5 -----
+ 2 files changed, 1 insertion(+), 24 deletions(-)
+
+diff --git a/daemon/backends/upower/backlighthelper.cpp b/daemon/backends/upower/backlighthelper.cpp
+index 5b133c8..fb5f7ed 100644
+--- a/daemon/backends/upower/backlighthelper.cpp
++++ b/daemon/backends/upower/backlighthelper.cpp
+@@ -63,22 +63,6 @@ void BacklightHelper::init()
+     m_isSupported = true;
+ }
+ 
+-bool BacklightHelper::isRawBacklightEnabled(const QString &interface)
+-{
+-    QFile file(BACKLIGHT_SYSFS_PATH + interface + "/device/enabled");
+-
+-    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+-        return false;
+-    }
+-
+-    QByteArray buffer = file.readLine().trimmed();
+-    if (buffer == "enabled") {
+-        return true;
+-    }
+-
+-    return false;
+-}
+-
+ void BacklightHelper::initUsingBacklightType()
+ {
+     QDir backlightDir(BACKLIGHT_SYSFS_PATH);
+@@ -103,9 +87,7 @@ void BacklightHelper::initUsingBacklightType()
+         } else if(buffer == "platform") {
+             platform.append(interface);
+         } else if (buffer == "raw") {
+-            if (isRawBacklightEnabled(interface)) {
+-                raw.append(interface);
+-            }
++            raw.append(interface);
+         } else {
+             qCWarning(POWERDEVIL) << "Interface type not handled" << buffer;
+         }
+diff --git a/daemon/backends/upower/backlighthelper.h b/daemon/backends/upower/backlighthelper.h
+index 1d8fa33..1382dd0 100644
+--- a/daemon/backends/upower/backlighthelper.h
++++ b/daemon/backends/upower/backlighthelper.h
+@@ -52,11 +52,6 @@ private:
+      */
+     void initUsingSysctl();
+ 
+-    /**
+-     * Check for a raw backlight interface if it's enabled by drm driver
+-     */
+-    static bool isRawBacklightEnabled(const QString &interface);
+-
+     bool m_isSupported = false;
+     QString m_dirname;
+     QString m_sysctlDevice;
+-- 
+cgit v0.11.2
+
