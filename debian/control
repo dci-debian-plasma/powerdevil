@@ -38,29 +38,37 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-config,
                pkg-kde-tools (>= 0.15.18~),
                plasma-workspace-dev (>= 4:5.2.1),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/powerdevil
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/powerdevil.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/powerdevil.git
 
-Package: powerdevil-dev
-Section: devel
+Package: libpowerdevilcore2
+Section: libs
 Architecture: any
-Depends: libpowerdevilcore2 (= ${binary:Version}),
-         libpowerdevilui5 (= ${binary:Version}),
-         powerdevil (= ${binary:Version}),
-         ${misc:Depends}
-Description: Global power saver settings.
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libpowerdevilcore1
+Replaces: libpowerdevilcore1
+Description: Global power saver settings ui library.
  Power Devil allows you to define your all power settings.
  .
- This package contains the development files.
+ This package contains the library files.
+
+Package: libpowerdevilui5
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Global power saver settings ui library.
+ Power Devil allows you to define your all power settings.
+ .
+ This package contains the library files.
 
 Package: powerdevil
 Architecture: any
 Depends: powerdevil-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: kde-workspace-data (<< 4:4.98.0)
 Replaces: kde-workspace-data (<< 4:4.98.0)
 Description: Global power saver settings.
@@ -74,22 +82,14 @@ Replaces: ${kde-l10n:all}
 Description: Global power saver settings data files.
  Power Devil allows you to define your all power settings.
 
-Package: libpowerdevilui5
-Section: libs
+Package: powerdevil-dev
+Section: devel
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Global power saver settings ui library.
+Depends: libpowerdevilcore2 (= ${binary:Version}),
+         libpowerdevilui5 (= ${binary:Version}),
+         powerdevil (= ${binary:Version}),
+         ${misc:Depends},
+Description: Global power saver settings.
  Power Devil allows you to define your all power settings.
  .
- This package contains the library files.
-
-Package: libpowerdevilcore2
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Conflicts: libpowerdevilcore1
-Replaces: libpowerdevilcore1
-Description: Global power saver settings ui library.
- Power Devil allows you to define your all power settings.
- .
- This package contains the library files.
+ This package contains the development files.
