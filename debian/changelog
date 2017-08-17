@@ -1,8 +1,18 @@
-powerdevil (4:5.10.3-1~) UNRELEASED; urgency=medium
+powerdevil (4:5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:59:01 +0200
+  [ Jonathan Riddell ]
+  * update watch file to version=4 with pgp signature checking
+
+  [ Raymond Wooninck ]
+  * Fix install list
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:35:32 +0200
 
 powerdevil (4:5.8.5-1) experimental; urgency=medium
 
