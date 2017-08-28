@@ -1,4 +1,4 @@
-powerdevil (4:5.10.5-1~) UNRELEASED; urgency=medium
+powerdevil (4:5.10.5-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3).
@@ -7,6 +7,7 @@ powerdevil (4:5.10.5-1~) UNRELEASED; urgency=medium
   * New upstream release (5.10.4).
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.10.5).
+  * Release to experimental
 
   [ Jonathan Riddell ]
   * update watch file to version=4 with pgp signature checking
@@ -14,7 +15,7 @@ powerdevil (4:5.10.5-1~) UNRELEASED; urgency=medium
   [ Raymond Wooninck ]
   * Fix install list
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:52:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:29:43 +0200
 
 powerdevil (4:5.8.5-1) experimental; urgency=medium
 
