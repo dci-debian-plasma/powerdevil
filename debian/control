@@ -97,7 +97,7 @@ Description: Global power saver settings ui library.
 
 Package: powerdevil-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: powerdevil (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -105,3 +105,4 @@ Description: Global power saver settings.
  Power Devil allows you to define your all power settings.
  .
  This package contains the debug files.
+
