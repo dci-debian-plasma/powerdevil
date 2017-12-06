@@ -1,4 +1,5 @@
 usr/share/doc/HTML/*/kcontrol/powerdevil/
+usr/share/kconf_update/powerdevil_move_shortcuts.upd
 usr/share/knotifications5
 usr/share/kservices5
 usr/share/kservicetypes5
